@@ -14,7 +14,8 @@
         android:textColor="@color/red"
         android:inputType="text"
         android:hint="Digite Username"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:id="@+id/eUsername"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -29,9 +30,10 @@
         android:layout_height="wrap_content"
         android:textSize="30dp"
         android:textColor="@color/red"
-        android:inputType="numberPassword"
+
         android:hint="Digite Password"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:id="@+id/ePassword"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -44,7 +46,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ACEPTAR"/>
+        android:text="ACEPTAR"
+        android:id="@+id/bAceptar"/>
 
 
 </LinearLayout>
